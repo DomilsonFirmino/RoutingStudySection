@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom"
+import Button from "../Components/Button"
 
 function Login() {
   return (
     <div>
-      Login
+      <form>
+        <Button bgColor="bg-slate-800" hoverColor="bg-red-400">
+          <p>Domilson</p>
+        </Button>
+      </form>
       <p>  
         <Link to="/EsqueceuSenha">Esqueceu a senha ?</Link>
       </p>
