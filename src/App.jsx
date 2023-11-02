@@ -32,7 +32,10 @@ const router = createBrowserRouter(
         <Route index element={<EsqueceuSenha/>}></Route>
       </Route>
 
+      {/*Does not catch how the error pages */}
       <Route path="*" element={<Error/>}/>
+      
+      {/*Why can throw error to especifiq routes */}
     </Route>
   )
 )
