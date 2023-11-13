@@ -28,3 +28,9 @@
       @apply text-lg sm:text-xl;
    }
 }
+
+@layer components{
+   .container{
+      @apply mx-4 md:m-auto lg:w-[min(100%,65rem)];
+   }
+}

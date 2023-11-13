@@ -4,9 +4,9 @@ import Footer from "../Components/Footer"
 
 function RootLayout() {
   return (
-    <div>
+    <div className="grid grid-cols-[auto 1fr auto] min-h-full">
        <Navbar/>
-       <main>
+       <main className="container">
          <Outlet/>
        </main>
        <Footer/>
